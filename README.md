@@ -38,6 +38,12 @@ The Nendo API Server requires a PostgresDB instance running either locally or re
 
 Furthermore, the Nendo API Server needs access to a Redis instance for scheduling of actions.
 
+In case, you don't have postgre library development
+
+```
+sudo apt install libpq-dev
+```
+
 ## Installation
 
 To setup the Nendo API Server, just make sure you are running python >= 3.8 and < 3.11. Then install the dependencies:
